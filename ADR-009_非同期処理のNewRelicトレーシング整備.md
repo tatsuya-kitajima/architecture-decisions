@@ -1,7 +1,7 @@
 ---
 created: 2026-07-26
 updated: 2026-07-26
-implemented: 2026-07-01
+implemented: 2025-09-01
 tags: ADR
 ---
 
@@ -100,4 +100,5 @@ tags: ADR
 - 非同期処理のトレースが親トランザクションと紐づき、エンドツーエンドで監視できる状態を実現
 - エラーログが欠損した場合でも、エラーを確実に検知できる体制を整備
 
-![[newrelic_async_tracing_asis_tobe.png]]
+## 学び
+- NewRelicのトランザクションの仕組みを学んだ
